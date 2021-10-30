@@ -49,7 +49,6 @@ namespace ValidateAnExpression
                 
             } while (string.IsNullOrEmpty(openingCharInput));
 
-
             do
             {
                 do
@@ -67,24 +66,57 @@ namespace ValidateAnExpression
 
             char openingChar = openingCharInput[0];
             char closingChar = closingCharInput[0];
+            bool expressionStatus = true;
+            bool openingCharIsPresent = false;
+            bool closingCharIsPresent = false;
 
-            //validating expression for opening and closing characters
-            //stack<T> class data structure is used here because it suits best for this situation (LIFO)
+            /*validating expression for opening and closing characters
+              also lets check if both opening and closing characters are present */
+
             Stack<char> bracketsContainer = new Stack<char>();
+
+            
 
             foreach (char character in expression)
             {
                 if (character == openingChar)
                 {
+                    openingCharIsPresent = true;
                    bracketsContainer.Push(openingChar);
                 }
                 else if (character == closingChar)
                 {
-                    bracketsContainer.Peek();
+                    closingCharIsPresent = true;
+                    try
+                    {
+                        bracketsContainer.Pop();
+                    }
+                    catch
+                    {
+                        expressionStatus = false;
+                        break;
+                    }
                 }
             }
 
-
+            
+            //cheking and printing iteration results
+            if (expressionStatus == false)
+            {
+                Console.WriteLine("The expression is not correct");
+            }
+            else if (openingCharIsPresent == false || closingCharIsPresent == false)
+            {
+                Console.WriteLine("The expression is not correct. Opening and/or closing character(s) are missing.");
+            }
+            else if (bracketsContainer.Count == 0)
+            {
+                Console.WriteLine("The expression is correct");
+            }
+            else
+            {
+                Console.WriteLine("The expression is not correct");
+            }
         }
     }
 }
