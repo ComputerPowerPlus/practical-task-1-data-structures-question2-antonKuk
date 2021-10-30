@@ -1,0 +1,16 @@
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.exe
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.deps.json
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.runtimeconfig.json
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.runtimeconfig.dev.json
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.dll
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ref\ValidateAnExpression.dll
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\bin\Debug\net5.0\ValidateAnExpression.pdb
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.csproj.AssemblyReference.cache
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.AssemblyInfoInputs.cache
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.AssemblyInfo.cs
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.csproj.CoreCompileInputs.cache
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.dll
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ref\ValidateAnExpression.dll
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.pdb
+C:\Users\student\DataStr\task1_question2\ValidateAnExpression\obj\Debug\net5.0\ValidateAnExpression.genruntimeconfig.cache
